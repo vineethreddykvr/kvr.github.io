@@ -809,7 +809,7 @@ section {
 
 .slide-wrapper {
   width: 2912px;
-  -webkit-animation: slide 8s ease infinite;
+  -webkit-animation: slide 12s ease infinite;
 }
 
 .slide {
@@ -819,8 +819,8 @@ section {
 }
 
 .slide:nth-child(1) {
-  background-image: url(https://github.com/vineethreddykvr/kvr.github.io/blob/main/img2.jpg?raw=true);
-  background-size: 100% 99%;
+  background-image: url(https://harshaz.live/static/media/achInv.311da7957887172e80ea.jpg);
+  background-size: 90% 99%;
 
 }
 
@@ -830,16 +830,23 @@ section {
 }
 
 .slide:nth-child(3) {
-  background-image: url(https://github.com/vineethreddykvr/kvr.github.io/blob/main/img3.jpg?raw=true);
-  background-size: 99% 98%;
+  background-image: url(https://github.com/vineethreddykvr/kvr.github.io/blob/main/img2.jpg?raw=true);
+  background-size: 98% 98%;
 }
+.slide:nth-child(4) {
+  background-image: url(https://github.com/vineethreddykvr/kvr.github.io/blob/main/img3.png?raw=true);
+  background-size: 99.3% 98%;
+}
+
+
+
 
 
 
 .slide-number {
   color: #000;
   text-align: center;
-  font-size: 10em;
+  font-size: 1em;
 }
 
 @-webkit-keyframes slide {
@@ -847,4 +854,8 @@ section {
   30% {margin-left: -728px;}
   50% {margin-left: -728px;}
   60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
 }
+  
