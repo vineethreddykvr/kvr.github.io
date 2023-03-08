@@ -819,18 +819,18 @@ section {
 }
 
 .slide:nth-child(1) {
-  background-image: url(/WhatsApp\ Image\ 2023-01-30\ at\ 12.00.30.jpg);
+  background-image: url(img2.jpg);
   background-size: 100% 99%;
 
 }
 
 .slide:nth-child(2) {
-  background-image: url(/WhatsApp\ Image\ 2023-01-30\ at\ 11.57.49.jpg);
+  background-image: url(/img1.jpg);
   background-size: 92% 98%;
 }
 
 .slide:nth-child(3) {
-  background-image: url(/WhatsApp\ Image\ 2023-01-29\ at\ 23.02.12.jpg);
+  background-image: url(/img3.jpg);
   background-size: 99% 98%;
 }
 
