@@ -819,18 +819,18 @@ section {
 }
 
 .slide:nth-child(1) {
-  background-image: url(/img2.jpg);
+  background-image: url(https://github.com/vineethreddykvr/kvr.github.io/blob/main/img2.jpg?raw=true);
   background-size: 100% 99%;
 
 }
 
 .slide:nth-child(2) {
-  background-image: url(/img3.jpg);
+  background-image: url(https://github.com/vineethreddykvr/kvr.github.io/blob/main/img1.jpg?raw=true);
   background-size: 92% 98%;
 }
 
 .slide:nth-child(3) {
-  background-image: url(/img1.jpg);
+  background-image: url(https://github.com/vineethreddykvr/kvr.github.io/blob/main/img3.jpg?raw=true);
   background-size: 99% 98%;
 }
 
