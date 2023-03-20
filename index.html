@@ -34,7 +34,21 @@ const data = { name: nam,email: em,subject:ag,message:mg };
 const json = JSON.stringify(data);
 
 alert(json);
-alert("thanks you ❤️")
+fetch('https://vinnu-e4ac8-default-rtdb.firebaseio.com/vineeth.json', {
+  method: 'POST', 
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: json,
+})
+  .then((response) => response.json())
+  .then((data) => {
+    alert('Success: ❤️', data);
+  })
+  .catch((error) => {
+    alert('Error:', error);
+  });
+
 }
 </script>
 <body>
