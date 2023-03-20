@@ -33,7 +33,6 @@ const em=document.getElementById("email").value;
 const data = { name: nam,email: em,subject:ag,message:mg };
 const json = JSON.stringify(data);
 
-alert(json);
 fetch('https://vinnu-e4ac8-default-rtdb.firebaseio.com/vineeth.json', {
   method: 'POST', 
   headers: {
